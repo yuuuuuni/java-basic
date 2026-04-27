@@ -14,7 +14,7 @@ public class SpeakerMain {
 
         //필드에 직접 접근
         System.out.println("volume 필드 직접 접근 수정");
-        speaker.volume = 200;
+        //speaker.volume = 200; //volume 필드의 접근제어자를 private로 설정함에 따라 외부에서 필드에 직접 접근 불가
         speaker.showVolume();
     }
 }
